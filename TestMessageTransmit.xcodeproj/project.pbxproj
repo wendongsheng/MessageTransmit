@@ -14,6 +14,8 @@
 		78E2FD691AEE26E600274825 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E2FD681AEE26E600274825 /* Images.xcassets */; };
 		78E2FD6C1AEE26E600274825 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E2FD6A1AEE26E600274825 /* LaunchScreen.xib */; };
 		78E2FD781AEE26E600274825 /* TestMessageTransmitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2FD771AEE26E600274825 /* TestMessageTransmitTests.m */; };
+		78E2FD831AEE274100274825 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2FD821AEE274100274825 /* Person.m */; };
+		78E2FD861AEE274B00274825 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2FD851AEE274B00274825 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		78E2FD711AEE26E600274825 /* TestMessageTransmitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMessageTransmitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E2FD761AEE26E600274825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78E2FD771AEE26E600274825 /* TestMessageTransmitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessageTransmitTests.m; sourceTree = "<group>"; };
+		78E2FD811AEE274100274825 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		78E2FD821AEE274100274825 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		78E2FD841AEE274B00274825 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		78E2FD851AEE274B00274825 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				78E2FD601AEE26E600274825 /* AppDelegate.m */,
 				78E2FD621AEE26E600274825 /* ViewController.h */,
 				78E2FD631AEE26E600274825 /* ViewController.m */,
+				78E2FD811AEE274100274825 /* Person.h */,
+				78E2FD821AEE274100274825 /* Person.m */,
+				78E2FD841AEE274B00274825 /* Car.h */,
+				78E2FD851AEE274B00274825 /* Car.m */,
 				78E2FD651AEE26E600274825 /* Main.storyboard */,
 				78E2FD681AEE26E600274825 /* Images.xcassets */,
 				78E2FD6A1AEE26E600274825 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E2FD861AEE274B00274825 /* Car.m in Sources */,
 				78E2FD641AEE26E600274825 /* ViewController.m in Sources */,
 				78E2FD611AEE26E600274825 /* AppDelegate.m in Sources */,
+				78E2FD831AEE274100274825 /* Person.m in Sources */,
 				78E2FD5E1AEE26E600274825 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
